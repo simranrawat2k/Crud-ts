@@ -1,0 +1,41 @@
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0;
+}
+
+.home .heading{
+  padding:20px;
+  background-color: rgb(63, 63, 63);
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.list-heading{
+  color: rgb(63, 63, 63);
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.container{
+  width:80%;
+  margin-inline: auto;
+}
+
+.add-div{
+  text-align: end;
+  margin-bottom: 30px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .home .heading{
+    font-size: 2rem;
+  }
+}
+
